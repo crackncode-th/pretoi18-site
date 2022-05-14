@@ -1,6 +1,6 @@
 {
   "name": "pretoi18-site",
-  "description": "Template for making SSR SveltKit Website, to be deployed at Vercel",
+  "description": "Site contains Information for upcoming Pre TOI18 Contests",
   "version": "1.0.0",
   "type": "module",
   "author": "Leomotors",
