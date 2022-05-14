@@ -33,7 +33,7 @@
 
   <h2>Disclaimer</h2>
   <p class="mb-3">
-    We are<span class="font-bold text-red-600">NOT</span> the official organization
+    We are <span class="font-bold text-red-600">NOT</span> the official organization
     involved in the selection and training process of Thai students in the fields
     of informatics. Those processes are officially handled by The Institute for the
     Promotion of Teaching Science and Technology (IPST) and The Promotion of Academic
