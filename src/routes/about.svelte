@@ -1,4 +1,4 @@
-<main class="w-2/3 mx-auto">
+<main class="page">
   <h1 class="text-center text-6xl font-bold mb-10">เกี่ยวกับเรา</h1>
 
   <h2>เราคือใคร</h2>
@@ -53,6 +53,6 @@
   }
 
   p {
-    @apply text-lg my-4;
+    @apply text-xl my-4;
   }
 </style>

@@ -32,6 +32,6 @@
   }
 
   p {
-    @apply text-2xl lg:text-3xl my-4;
+    @apply text-xl lg:text-2xl my-4;
   }
 </style>
