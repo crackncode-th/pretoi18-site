@@ -3,15 +3,17 @@
   import "../app.css";
 
   import { goto } from "$app/navigation";
-  import Facebook from "../components/Facebook.svelte";
+
+  import Facebook from "$icons/Facebook.svelte";
+  import GitHub from "$icons/GitHub.svelte";
+  import Instagram from "$icons/Instagram.svelte";
+
+  import ext from "$lib/ext";
 
   const routes = {
     rules: "Rules",
     schedule: "Schedule",
     about: "About",
-  };
-  const handleFacebook = () => {
-    window.open("https://www.facebook.com/profile.php?id=100069611934421");
   };
 </script>
 
@@ -42,20 +44,30 @@
   </div>
 </nav>
 
-<main class="p-4">
+<main class="p-4 min-h-[calc(100vh-20rem)]">
   <slot />
 </main>
 
-<footer class="flex justify-center mt-10">
-  <div class="w-3/4">
-    <hr class="mb-5" />
-    <h2 class="text-lg font-bold">Crack 'n' Code Pre TOI18</h2>
-    <p class="mb-2">"เดือนนี้คุณทำโจทย์ Crack 'n' Code แล้วหรือยัง"</p>
-    <div
-      on:click={handleFacebook}
-      class="flex justify-center mb-5 hover:text-gray-800"
-    >
+<footer class="flex flex-col justify-center items-center my-5 w-2/3 mx-auto">
+  <hr class="mb-5 w-full" />
+  <h2 class="text-lg font-bold">Crack 'n' Code Pre TOI18</h2>
+  <p class="mb-2">"เดือนนี้คุณทำโจทย์ Crack 'n' Code แล้วหรือยัง"</p>
+
+  <div class="icons flex flex-row justify-center gap-4">
+    <a href="https://www.facebook.com/profile.php?id=100069611934421" {...ext}>
       <Facebook />
-    </div>
+    </a>
+    <a href="https://www.instagram.com/crackncodeth" {...ext}>
+      <Instagram />
+    </a>
+    <a href="https://github.com/crackncode-th" {...ext}>
+      <GitHub />
+    </a>
   </div>
 </footer>
+
+<style lang="postcss">
+  .icons > a {
+    @apply text-white hover:text-gray-400 transition-all;
+  }
+</style>
