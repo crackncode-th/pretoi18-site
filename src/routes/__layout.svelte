@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "../font.css";
   import "../app.css";
 
   import { goto } from "$app/navigation";
@@ -10,7 +11,9 @@
   };
 </script>
 
-<nav class="flex flex-row justify-between items-center p-4 w-2/3 mx-auto">
+<nav
+  class="flex flex-row justify-between items-center p-4 w-full lg:w-2/3 mx-auto"
+>
   <div class="left">
     <img
       on:click={() => {

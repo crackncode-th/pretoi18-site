@@ -1,4 +1,4 @@
-<main class="text-center w-2/3 mx-auto">
+<main class="page">
   <h1 class="text-6xl font-bold mb-10">Crack 'n' Code Pre TOI18</h1>
 
   <h2>เราคือใคร</h2>
@@ -24,6 +24,6 @@
   }
 
   p {
-    @apply text-3xl my-4;
+    @apply text-2xl lg:text-3xl my-4;
   }
 </style>

@@ -19,9 +19,9 @@
     "format": "prettier --write \"*.config.{cjs,js,ts}\" && prettier --write \"{src,tests}/**/*.{ts,svelte,html}\""
   },
   "devDependencies": {
-    "@playwright/test": "^1.21.1",
+    "@playwright/test": "^1.22.0",
     "@sveltejs/adapter-netlify": "^1.0.0-next.57",
-    "@sveltejs/kit": "1.0.0-next.328",
+    "@sveltejs/kit": "1.0.0-next.330",
     "@types/tailwindcss": "^3.0.10",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -36,7 +36,7 @@
     "prettier-plugin-svelte": "^2.7.0",
     "rimraf": "^3.0.2",
     "svelte": "^3.48.0",
-    "svelte-check": "^2.7.0",
+    "svelte-check": "^2.7.1",
     "svelte-preprocess": "^4.10.6",
     "tailwindcss": "^3.0.24",
     "tslib": "^2.4.0",
