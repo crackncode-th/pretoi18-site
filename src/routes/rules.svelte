@@ -16,11 +16,14 @@
     </li>
     <li>
       เนื้อหาโจทย์จะออกตามเนื้อหาที่ออกสอบในการแข่งขันคอมพิวเตอร์โอลิมปิกระดับชาติ
-      (TOI) <a
+      (TOI)
+      <a
         class="blue-link"
         href="https://toi2020.kku.ac.th/index.php?r=user-about-contest%2Fcontent-scope"
-        {...ext}>เนื้อหาของ TOI</a
+        {...ext}
       >
+        เนื้อหาของ TOI
+      </a>
     </li>
     <li>รองรับการส่งด้วยภาษา C (C11) และ C++ (C++11) เท่านั้น</li>
     <li>
