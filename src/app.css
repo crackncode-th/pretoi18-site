@@ -13,5 +13,5 @@
 }
 
 .blue-link {
-  @apply text-blue-500 hover:text-blue-600 transition-all;
+  @apply text-blue-500 hover:text-blue-600 transition-all underline;
 }
