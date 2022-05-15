@@ -1,3 +1,7 @@
+<script lang="ts">
+  import ext from "$lib/ext";
+</script>
+
 <main class="page">
   <h1 class="text-5xl sm:text-6xl font-bold mb-10">กฏการแข่งขัน Pre TOI18</h1>
 
@@ -13,6 +17,13 @@
     <li>
       เนื้อหาโจทย์จะออกตามเนื้อหาที่ออกสอบในการแข่งขันคอมพิวเตอร์โอลิมปิกระดับชาติ
       (TOI)
+      <a
+        class="blue-link"
+        href="https://toi2020.kku.ac.th/index.php?r=user-about-contest%2Fcontent-scope"
+        {...ext}
+      >
+        เนื้อหาของ TOI
+      </a>
     </li>
     <li>รองรับการส่งด้วยภาษา C (C11) และ C++ (C++11) เท่านั้น</li>
     <li>
