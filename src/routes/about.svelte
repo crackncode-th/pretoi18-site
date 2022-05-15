@@ -10,6 +10,14 @@
     ให้มีความสามารถในการแก้ไขปัญหาเชิงคอมพิวเตอร์ได้ดีขึ้น
   </p>
 
+  <h2>ประสบการณ์ของเรา</h2>
+  <p>
+    การแข่งขัน Crack 'n' Code ครั้งแรกเกิดขึ้นในเดือนกรกฎาคม ปี 2021
+    ซึ่งได้ผ่านมาแล้วเป็นเวลากว่า 10 เดือน เราได้จัดการแข่งขันไปแล้วทั้งหมด 11
+    ครั้ง และมีโจทย์กว่า 38 ข้อ เป้าหมายของเราคือการสร้างพื้นที่ให้ทุก ๆ
+    คนได้เข้ามาร่วมสนุก และฝึกฝนตนเอง
+  </p>
+
   <h2>หมายเหตุ</h2>
   <p class="mb-3">
     พวกเรา<span class="font-bold text-red-600">ไม่ใช่</span
@@ -20,30 +28,6 @@
   <p>
     พวกเราเป็นแค่กลุ่มนักเรียนคอมพิวเตอร์โอลิมปิกวิชาการ
     ที่อยากช่วยพัฒนาความก้าวหน้าวงการคอมพิวเตอร์โอลิมปิกวิชาการในไทย
-  </p>
-
-  <h2 class="mt-20">About Us</h2>
-  <p>
-    Crack 'n' Code Thailand is a group of Thai students who have been through
-    olympic training in informatics. We want to create an online space that
-    hosts computer olympic contests for hungry minds who wants to test their
-    programming abilities, sharpen their problem-solving skills, and unleash
-    their creativity.
-  </p>
-
-  <h2>Disclaimer</h2>
-  <p class="mb-3">
-    We are <span class="font-bold text-red-600">NOT</span> the official organization
-    involved in the selection and training process of Thai students in the fields
-    of informatics. Those processes are officially handled by The Institute for the
-    Promotion of Teaching Science and Technology (IPST) and The Promotion of Academic
-    Olympiad and Development of Science Education Foundation under the patronage
-    of Her Royal Highness Princess Galyani Vadhana Krom Luang Naradhiwas Rajanagarindra
-    (POSN).
-  </p>
-  <p>
-    We are just some people who want to help foster the computer olympic
-    community in Thailand.
   </p>
 </main>
 

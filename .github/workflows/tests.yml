@@ -19,6 +19,8 @@ jobs:
         run: yarn build
       - name: ESLint & Prettier Check
         run: yarn lint
+      - name: CRLF Phobia
+        run: npx crlf-phobia *
       - name: Install Browsers for Playwright
         run: npx playwright install
       - name: Playwright Test
