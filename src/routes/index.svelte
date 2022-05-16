@@ -3,7 +3,7 @@
 </script>
 
 <main class="page">
-  <h1 class="text-5xl sm:text-6xl font-bold mb-10">Crack 'n' Code Pre TOI18</h1>
+  <h1 class="page-title mb-10">Crack 'n' Code Pre TOI18</h1>
   <h2 class="mb-20">
     TOI ใกล้เข้ามาแล้ว อยากจะทดสอบฝีมือตัวเองใช่มั้ย คุณคิดว่าคุณพร้อมแค่ไหนกัน
     กดปุ่มลงทะเบียนแข่งด้านล่างเลยยย

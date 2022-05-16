@@ -8,8 +8,16 @@
     sans-serif;
 }
 
+.rwidth {
+  @apply w-full lg:w-4/5 xl:w-3/4 2xl:w-2/3;
+}
+
 .page {
-  @apply mx-auto w-full lg:w-2/3;
+  @apply mx-auto rwidth;
+}
+
+.page-title {
+  @apply text-5xl sm:text-6xl font-bold;
 }
 
 .blue-link {
