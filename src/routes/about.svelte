@@ -1,4 +1,4 @@
-<main class="page">
+<main class="page lg:px-20">
   <h1 class="page-title mb-10">เกี่ยวกับเรา</h1>
 
   <h2>เราคือใคร</h2>
@@ -30,13 +30,3 @@
     ที่อยากช่วยพัฒนาความก้าวหน้าวงการคอมพิวเตอร์โอลิมปิกวิชาการในไทย
   </p>
 </main>
-
-<style lang="postcss">
-  h2 {
-    @apply text-2xl font-bold;
-  }
-
-  p {
-    @apply text-xl my-4;
-  }
-</style>
