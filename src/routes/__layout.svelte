@@ -96,7 +96,9 @@
 <footer class="flex flex-col justify-center items-center my-5 w-2/3 mx-auto">
   <hr class="mb-5 w-full" />
   <h2 class="text-lg font-bold">Crack 'n' Code Pre TOI18</h2>
-  <p class="mb-2">"เดือนนี้คุณทำโจทย์ Crack 'n' Code แล้วหรือยัง"</p>
+  <p class="mb-2 text-base my-0">
+    "เดือนนี้คุณทำโจทย์ Crack 'n' Code แล้วหรือยัง"
+  </p>
 
   <div class="icons flex flex-row justify-center gap-4">
     <a href="https://www.facebook.com/profile.php?id=100069611934421" {...ext}>
