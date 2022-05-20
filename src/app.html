@@ -15,7 +15,8 @@
     />
     %svelte.head%
   </head>
-  <body class="bg-black text-white text-center overflow-x-hidden">
-    %svelte.body%
+  <body class="bg-black text-white text-center">
+    <!-- https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers -->
+    <div class="overflow-x-hidden relative">%svelte.body%</div>
   </body>
 </html>

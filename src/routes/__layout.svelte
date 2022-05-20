@@ -89,7 +89,7 @@
   </div>
 </nav>
 
-<main class="p-4 min-h-[calc(100vh-20rem)]">
+<main class="p-4 min-h-[calc(100vh-18rem)]">
   <slot />
 </main>
 

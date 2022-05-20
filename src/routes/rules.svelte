@@ -5,7 +5,7 @@
 <main class="page">
   <h1 class="page-title mb-10">กฎการแข่งขัน Pre TOI18</h1>
 
-  <ul class="list-disc text-left rwidth px-8 lg:px-0 mx-auto">
+  <ul class="list-disc text-left rwidth pl-8 pr-4 lg:px-0 mx-auto">
     <li>
       การแข่งขันจะจัดขึ้นในวันที่ 28 และ 29 พฤษภาคม 2565 ในเวลา 19:00 - 22:00
     </li>
