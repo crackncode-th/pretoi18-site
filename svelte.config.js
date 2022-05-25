@@ -22,6 +22,7 @@ export default {
     vite: {
       resolve: {
         alias: {
+          $data: path.resolve("src/data"),
           $icons: path.resolve("src/icons"),
         },
       },
