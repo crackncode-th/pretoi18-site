@@ -1,5 +1,8 @@
 <script lang="ts">
   import Countdown from "$components/Countdown.svelte";
+
+  const pastRegistration =
+    new Date().getTime() >= new Date("2022-05-26 23:59:59").getTime();
 </script>
 
 <main class="page">
@@ -15,20 +18,22 @@
         window.open(
           "https://docs.google.com/forms/d/17Vf0IOAQ9NY8uC472wbZdhx0hFEBMMPiB0IDMxbG_E4"
         )}
-      class:hidden={new Date().getTime() >=
-        new Date("2022-05-26 23:59:59").getTime()}
+      class:hidden={pastRegistration}
     >
       <h2>ลงทะเบียน</h2>
     </button>
-    <button class="hidden">
+    <button
+      class="hidden สวัสดีวัยรุ่น-F12-ลองกดปุ่มนี้ดูสิ"
+      on:click={() =>
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")}
+    >
       <h2>เข้าระบบเกรดเดอร์</h2>
     </button>
   </div>
 
-  <Countdown />
-  <p class="text-red-500 text-xl font-semibold mb-4">
-    หมดเขตรับสมัคร 26 พฤษภาคม 2565 เวลา 23:59
-  </p>
+  <div class:hidden={pastRegistration}>
+    <Countdown />
+  </div>
 
   <h2 class="mt-20">การแข่งขัน Pre-TOI 18</h2>
   <p>
