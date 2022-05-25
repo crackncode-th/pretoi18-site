@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ext from "$lib/ext";
+  import Countdown from "$components/Countdown.svelte";
 </script>
 
 <main class="page">
@@ -9,21 +9,37 @@
     กดปุ่มลงทะเบียนแข่งด้านล่างเลยยย
   </h2>
 
-  <a
-    href="https://docs.google.com/forms/d/17Vf0IOAQ9NY8uC472wbZdhx0hFEBMMPiB0IDMxbG_E4"
-    {...ext}
-  >
+  <div class="buttons flex flex-row justify-center gap-2">
     <button
-      class="border rounded-lg px-5 py-2.5 border-red-500 text-red-500 hover:text-white hover:bg-red-600 focus:ring-red-900 transition-all"
+      on:click={() =>
+        window.open(
+          "https://docs.google.com/forms/d/17Vf0IOAQ9NY8uC472wbZdhx0hFEBMMPiB0IDMxbG_E4"
+        )}
+      class:hidden={new Date().getTime() >=
+        new Date("2022-05-26 23:59:59").getTime()}
     >
       <h2>ลงทะเบียน</h2>
     </button>
-  </a>
+    <button class="hidden">
+      <h2>เข้าระบบเกรดเดอร์</h2>
+    </button>
+  </div>
 
-  <h2 class="mt-40">การแข่งขัน Pre-TOI 18</h2>
+  <Countdown />
+  <p class="text-red-500 text-xl font-semibold mb-4">
+    หมดเขตรับสมัคร 26 พฤษภาคม 2565 เวลา 23:59
+  </p>
+
+  <h2 class="mt-20">การแข่งขัน Pre-TOI 18</h2>
   <p>
     จะจัดขึ้นในวันที่ <b>28-29 พฤษภาคม 2565</b> ผ่านระบบ CMS ซึ่งเป็นระบบเดียวกับที่ใช้ในการแข่งขันคอมพิวเตอร์โอลิมปิกระหว่างประเทศ
     (IOI) การสอบคัดเลือกในค่ายสสวท รวมถึงการแข่งขันโอลิมปิกระดับชาติครั้งที่ 18 (TOI18)
     ที่จะมาถึงนี้
   </p>
 </main>
+
+<style lang="postcss">
+  .buttons > button {
+    @apply border rounded-lg px-5 py-2.5 border-red-500 text-red-500 hover:text-white hover:bg-red-600 focus:ring-red-900 transition-all select-none;
+  }
+</style>

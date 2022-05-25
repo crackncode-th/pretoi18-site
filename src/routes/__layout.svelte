@@ -26,7 +26,9 @@
   });
 </script>
 
-<nav class="flex flex-row justify-between items-center p-4 rwidth mx-auto">
+<nav
+  class="flex flex-row justify-between items-center p-4 rwidth mx-auto select-none"
+>
   <div class="left">
     <img
       on:click={() => {
