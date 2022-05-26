@@ -22,11 +22,7 @@
     >
       <h2>ลงทะเบียน</h2>
     </button>
-    <button
-      class="hidden สวัสดีวัยรุ่น-F12-ลองกดปุ่มนี้ดูสิ"
-      on:click={() =>
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")}
-    >
+    <button on:click={() => window.open("http://209.97.175.45/")}>
       <h2>เข้าระบบเกรดเดอร์</h2>
     </button>
   </div>

@@ -52,7 +52,7 @@
             ? $page.url.pathname == '/'
             : $page.url.pathname == '/' + url
         )
-          ? 'bg-slate-800'
+          ? 'bg-slate-800 cursor-default'
           : 'hover:bg-slate-700'} p-2 rounded transition-all"
         href={url}
       >
