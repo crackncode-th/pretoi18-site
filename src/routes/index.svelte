@@ -5,6 +5,8 @@
     กดปุ่มลงทะเบียนแข่งด้านล่างเลยยย
   </h2>
 
+  <p class="text-2xl text-red-500">หมายเหตุ: หมดเขตรับสมัครแล้ว</p>
+
   <button
     class="border rounded-lg px-5 py-2.5 border-red-500 text-red-500 hover:text-white hover:bg-red-600 focus:ring-red-900 transition-all select-none"
     on:click={() => window.open("http://209.97.175.45/")}
