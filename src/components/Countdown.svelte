@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  const targetTime = new Date("2022-05-28 19:00:00").getTime();
+  const targetTime = new Date("2022-05-29 19:00:00").getTime();
   let text = "...";
   function setTime() {
     const now = new Date().getTime();
@@ -19,4 +19,6 @@
 </script>
 
 <p class="text-4xl font-bold text-red-500">{text}</p>
-<p class="text-red-500 text-xl font-semibold mb-4">(เริ่มเวลา 19:00 น.)</p>
+<p class="text-red-500 text-xl font-semibold mb-4">
+  (เริ่มเวลา 19:00 น. ของวันที่ 29)
+</p>
