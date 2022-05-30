@@ -11,6 +11,7 @@
             "$lib": ["src/lib"],
             "$lib/*": ["src/lib/*"]
         },
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
     }
 }

@@ -1,13 +1,26 @@
 <script lang="ts">
-  import { tasks, users as _users } from "$data/test_data.g.json";
+  import _users from "$data/data.json";
 
   import Chevron from "$icons/Chevron.svelte";
 
   let users = _users;
-  const contestants = users.length;
-  const gold_medal = Math.round(contestants / 12);
-  const silver_medal = Math.round(contestants / 4);
-  const bronze_medal = Math.round(contestants / 2);
+  const gold_medal = 8;
+  const silver_medal = 23;
+  const bronze_medal = 45;
+
+  const columns = [
+    "Rank",
+    "Name",
+    "multiverse",
+    "isekai",
+    "boringpath",
+    "Day 1",
+    "cover",
+    "explosion",
+    "carnival",
+    "Day 2",
+    "Global",
+  ];
 
   function getMedalColor(rank: number) {
     // from THACO
@@ -18,10 +31,10 @@
     } else if (rank <= bronze_medal) {
       return "bg-orange-300";
     }
-    return "text-white";
+    return "bg-sky-200";
   }
 
-  let current_key = "rank";
+  let current_key = "Global";
   let ascending = true;
 
   function cmp<T>(a: T, b: T, key: string, flipped: boolean, fallback = "") {
@@ -39,7 +52,7 @@
         ascending = !ascending;
       } else {
         current_key = key;
-        ascending = true;
+        ascending = false;
       }
 
       users = users.sort((a, b) => cmp(a, b, key, !ascending, "Global"));
@@ -47,61 +60,38 @@
   }
 </script>
 
-<main class="page">
+<main class="mx-auto">
   <h1 class="page-title">Ranking</h1>
+  <p>มีผู้เข้าแข่งขันที่ส่งอย่างน้อยหนึ่งครั้งทั้งหมด 92 ท่าน</p>
 
-  <table class="mx-auto m-8">
+  <table class="mx-auto my-8">
     <thead>
-      <th class:selected-col={current_key == "rank"} on:click={sortKey("rank")}>
-        <div>
-          Rank
-          <Chevron ascending={ascending || current_key != "rank"} />
-        </div>
-      </th>
-      <th
-        class:selected-col={current_key == "Username"}
-        on:click={sortKey("Username")}
-      >
-        <div>
-          User
-          <Chevron ascending={ascending || current_key != "Username"} />
-        </div>
-      </th>
-      <th class:selected-col={current_key == "User"} on:click={sortKey("User")}>
-        <div>
-          Display Name <Chevron
-            ascending={ascending || current_key != "User"}
-          />
-        </div>
-      </th>
-      {#each tasks as task}
-        <th class:selected-col={current_key == task} on:click={sortKey(task)}>
+      {#each columns as column}
+        <th
+          class:selected-col={current_key == column}
+          on:click={column == "Rank" ? () => {} : sortKey(column)}
+        >
           <div>
-            {task}
-            <Chevron ascending={ascending || current_key != task} />
+            {column}
+            {#if column != "Rank"}
+              <Chevron ascending={ascending && current_key == column} />
+            {/if}
           </div>
         </th>
       {/each}
-      <th
-        class:selected-col={current_key == "Global"}
-        on:click={sortKey("Global")}
-      >
-        <div>
-          Global
-          <Chevron ascending={ascending || current_key != "Global"} />
-        </div>
-      </th>
     </thead>
     <tbody class="text-black">
       {#each users as user}
-        <tr class={getMedalColor(user.rank)}>
-          <td>{user.rank}</td>
-          <td>{user.Username}</td>
-          <td>{user.User}</td>
-          {#each tasks as task}
-            <td>{user[task]}</td>
+        <tr class={getMedalColor(user.Rank)}>
+          {#each columns as column}
+            <td>
+              {#if column == "Name" && user.Name == ""}
+                <span class="text-slate-600">&lt;Anonymous&gt;</span>
+              {:else}
+                {user[column]}
+              {/if}
+            </td>
           {/each}
-          <td>{user.Global}</td>
         </tr>
       {/each}
     </tbody>
@@ -111,7 +101,7 @@
 <style lang="postcss">
   th,
   td {
-    @apply text-lg lg:text-xl p-0.5 lg:p-2 border;
+    @apply text-lg p-0.5 lg:p-2 border;
   }
 
   th {

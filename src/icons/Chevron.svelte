@@ -9,7 +9,7 @@
   height="20"
   fill="currentColor"
   class="transition-all"
-  class:rotate-180={!ascending}
+  class:rotate-180={ascending}
   viewBox="0 0 16 16"
 >
   <path
