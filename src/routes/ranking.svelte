@@ -35,7 +35,7 @@
   }
 
   let current_key = "Global";
-  let ascending = true;
+  let ascending = false;
 
   function cmp<T>(a: T, b: T, key: string, flipped: boolean, fallback = "") {
     if (a[key] < b[key]) {

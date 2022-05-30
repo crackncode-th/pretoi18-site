@@ -12,12 +12,17 @@
     การแข่งขันได้สิ้นสุดลงแล้ว ขอบคุณทุกคนที่ให้ความสนใจ
   </p>
 
-  <button
-    class="border rounded-lg px-5 py-2.5 border-red-500 text-red-500 hover:text-white hover:bg-red-600 focus:ring-red-900 transition-all select-none"
-    on:click={() => goto("/ranking")}
-  >
-    <h2>ดูผลการแข่งขัน</h2>
-  </button>
+  <div class="buttons">
+    <button
+      on:click={() =>
+        window.open("https://github.com/crackncode-th/2206-tasks")}
+    >
+      <h2>อ่านโจทย์และเฉลย</h2>
+    </button>
+    <button on:click={() => goto("/ranking")}>
+      <h2>ดูอันดับการแข่งขัน</h2>
+    </button>
+  </div>
 
   <h2 class="mt-20">การแข่งขัน Pre-TOI 18</h2>
   <p>
@@ -26,3 +31,14 @@
     ที่จะมาถึงนี้
   </p>
 </main>
+
+<style lang="postcss">
+  .buttons {
+    @apply flex flex-row gap-2 justify-center transition-all select-none;
+  }
+
+  .buttons > button {
+    @apply border rounded-lg px-5 py-2.5 border-red-500 text-red-500;
+    @apply hover:text-white hover:bg-red-600 focus:ring-red-900;
+  }
+</style>
