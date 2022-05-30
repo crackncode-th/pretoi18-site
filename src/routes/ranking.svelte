@@ -43,7 +43,7 @@
     } else if (a[key] > b[key]) {
       return flipped ? -1 : 1;
     }
-    return fallback ? cmp(a, b, fallback, flipped) : 0;
+    return fallback ? cmp(a, b, fallback, true) : 0;
   }
 
   function sortKey(key: string) {

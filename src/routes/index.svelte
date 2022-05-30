@@ -34,11 +34,11 @@
 
 <style lang="postcss">
   .buttons {
-    @apply flex flex-row gap-2 justify-center transition-all select-none;
+    @apply flex flex-row gap-2 justify-center select-none;
   }
 
   .buttons > button {
     @apply border rounded-lg px-5 py-2.5 border-red-500 text-red-500;
-    @apply hover:text-white hover:bg-red-600 focus:ring-red-900;
+    @apply hover:text-white hover:bg-red-600 focus:ring-red-900 transition-all;
   }
 </style>
