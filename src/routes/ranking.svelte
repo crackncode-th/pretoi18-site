@@ -66,8 +66,8 @@
 
   <p class="text-green-500 text-3xl">ผลคะแนนอย่างเป็นทางการ</p>
 
-  <div class="wrapper w-full 2xl:w-[1220px] mx-auto my-8 overflow-x-scroll">
-    <table>
+  <div class="wrapper w-full 2xl:min-w-[1250px] mx-auto my-8 overflow-x-scroll">
+    <table class="mx-auto">
       <thead>
         {#each columns as column}
           <th
