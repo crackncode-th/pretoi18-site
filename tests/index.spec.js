@@ -14,3 +14,8 @@ test("rules page", async ({ page }) => {
   await page.goto("/rules");
   expect(await page.textContent("h1")).toContain("กฎ");
 });
+
+test("ranking page", async ({ page }) => {
+  await page.goto("/ranking");
+  expect(await page.textContent("h1")).toContain("Ranking");
+});

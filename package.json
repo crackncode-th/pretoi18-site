@@ -21,11 +21,12 @@
   "devDependencies": {
     "@playwright/test": "^1.22.2",
     "@sveltejs/adapter-netlify": "^1.0.0-next.62",
-    "@sveltejs/kit": "1.0.0-next.344",
+    "@sveltejs/kit": "1.0.0-next.345",
     "@types/tailwindcss": "^3.0.10",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "autoprefixer": "^10.4.7",
+    "csvtojson": "^2.0.10",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
