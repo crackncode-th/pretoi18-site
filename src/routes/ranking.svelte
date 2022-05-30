@@ -64,12 +64,14 @@
   <h1 class="page-title">Ranking</h1>
   <p>มีผู้เข้าแข่งขันที่ส่งอย่างน้อยหนึ่งครั้งทั้งหมด 92 ท่าน</p>
 
-  <table class="mx-auto my-8">
+  <p class="text-red-500 text-3xl">ผลคะแนนแบบไม่เป็นทางการ</p>
+
+  <table class="mx-auto my-8 overflow-x-scroll">
     <thead>
       {#each columns as column}
         <th
           class:selected-col={current_key == column}
-          on:click={column == "Rank" ? () => {} : sortKey(column)}
+          on:click={column == "Rank" ? null : sortKey(column)}
         >
           <div>
             {column}
