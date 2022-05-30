@@ -16,6 +16,7 @@
     "/": "Home",
     rules: "Rules",
     schedule: "Schedule",
+    ranking: "Ranking",
     about: "About",
   };
 

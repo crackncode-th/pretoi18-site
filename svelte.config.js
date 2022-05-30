@@ -23,6 +23,7 @@ export default {
       resolve: {
         alias: {
           $components: path.resolve("src/components"),
+          $data: path.resolve("src/data"),
           $icons: path.resolve("src/icons"),
         },
       },

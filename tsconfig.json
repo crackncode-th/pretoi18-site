@@ -4,10 +4,13 @@
         "paths": {
             "$components": ["src/components"],
             "$components/*": ["src/components/*"],
+            "$data": ["src/data"],
+            "$data/*": ["src/data/*"],
             "$icons": ["src/icons"],
             "$icons/*": ["src/icons/*"],
             "$lib": ["src/lib"],
             "$lib/*": ["src/lib/*"]
-        }
+        },
+        "resolveJsonModule": true
     }
 }
