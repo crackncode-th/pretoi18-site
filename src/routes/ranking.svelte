@@ -64,46 +64,50 @@
   <h1 class="page-title">Ranking</h1>
   <p>มีผู้เข้าแข่งขันที่ส่งอย่างน้อยหนึ่งครั้งทั้งหมด 92 ท่าน</p>
 
-  <p class="text-red-500 text-3xl">ผลคะแนนแบบไม่เป็นทางการ</p>
+  <p class="text-green-500 text-3xl">ผลคะแนนอย่างเป็นทางการ</p>
 
-  <table class="mx-auto my-8 overflow-x-scroll">
-    <thead>
-      {#each columns as column}
-        <th
-          class:selected-col={current_key == column}
-          on:click={column == "Rank" ? null : sortKey(column)}
-        >
-          <div>
-            {column}
-            {#if column != "Rank"}
-              <Chevron ascending={ascending && current_key == column} />
-            {/if}
-          </div>
-        </th>
-      {/each}
-    </thead>
-    <tbody class="text-black">
-      {#each users as user}
-        <tr class={getMedalColor(user.Rank)}>
-          {#each columns as column}
-            <td>
-              {#if column == "Name" && user.Name == ""}
-                <span class="text-slate-600">&lt;Anonymous&gt;</span>
-              {:else}
-                {user[column]}
+  <div class="wrapper w-full 2xl:w-[1220px] mx-auto my-8 overflow-x-scroll">
+    <table>
+      <thead>
+        {#each columns as column}
+          <th
+            class:selected-col={current_key == column}
+            on:click={column == "Rank" ? null : sortKey(column)}
+          >
+            <div>
+              {column}
+              {#if column != "Rank"}
+                <Chevron ascending={ascending && current_key == column} />
               {/if}
-            </td>
-          {/each}
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+            </div>
+          </th>
+        {/each}
+      </thead>
+      <tbody class="text-black">
+        {#each users as user}
+          <tr class={getMedalColor(user.Rank)}>
+            {#each columns as column}
+              <td
+                class:font-bold={column.startsWith("Day") || column == "Global"}
+              >
+                {#if column == "Name" && user.Name == ""}
+                  <span class="text-slate-600">&lt;Anonymous&gt;</span>
+                {:else}
+                  {user[column]}
+                {/if}
+              </td>
+            {/each}
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </div>
 </main>
 
 <style lang="postcss">
   th,
   td {
-    @apply text-lg p-0.5 lg:p-2 border;
+    @apply text-base lg:text-lg p-1 lg:p-2 border;
   }
 
   th {

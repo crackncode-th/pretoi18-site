@@ -86,14 +86,14 @@
     {
         "Username": "user89",
         "multiverse": 100,
-        "isekai": 30,
+        "isekai": 21,
         "boringpath": 66,
-        "Global": 430,
+        "Global": 421,
         "cover": 100,
         "explosion": 100,
         "carnival": 34,
         "Name": "peteza",
-        "Day 1": 196,
+        "Day 1": 187,
         "Day 2": 234,
         "Rank": 7
     },
@@ -226,14 +226,14 @@
     {
         "Username": "user117",
         "multiverse": 100,
-        "isekai": 18,
+        "isekai": 9,
         "boringpath": 0,
-        "Global": 232,
+        "Global": 223,
         "cover": 100,
         "explosion": 0,
         "carnival": 14,
         "Name": "ดูดูบาบี",
-        "Day 1": 118,
+        "Day 1": 109,
         "Day 2": 114,
         "Rank": 17
     },
@@ -490,20 +490,6 @@
         "Rank": 35
     },
     {
-        "Username": "user147",
-        "multiverse": 100,
-        "isekai": 30,
-        "boringpath": 0,
-        "Global": 141,
-        "cover": 11,
-        "explosion": 0,
-        "carnival": 0,
-        "Name": "WU chalk",
-        "Day 1": 130,
-        "Day 2": 11,
-        "Rank": 35
-    },
-    {
         "Username": "user34",
         "multiverse": 100,
         "isekai": 0,
@@ -515,6 +501,20 @@
         "Name": "LOOOOUIS",
         "Day 1": 100,
         "Day 2": 39,
+        "Rank": 36
+    },
+    {
+        "Username": "user147",
+        "multiverse": 100,
+        "isekai": 21,
+        "boringpath": 0,
+        "Global": 132,
+        "cover": 11,
+        "explosion": 0,
+        "carnival": 0,
+        "Name": "WU chalk",
+        "Day 1": 121,
+        "Day 2": 11,
         "Rank": 37
     },
     {
@@ -770,20 +770,6 @@
         "Rank": 55
     },
     {
-        "Username": "user98",
-        "multiverse": 4,
-        "isekai": 30,
-        "boringpath": 0,
-        "Global": 62,
-        "cover": 0,
-        "explosion": 28,
-        "carnival": 0,
-        "Name": "riodsa",
-        "Day 1": 34,
-        "Day 2": 28,
-        "Rank": 56
-    },
-    {
         "Username": "user97",
         "multiverse": 4,
         "isekai": 30,
@@ -795,7 +781,7 @@
         "Name": "Fnzx",
         "Day 1": 34,
         "Day 2": 25,
-        "Rank": 57
+        "Rank": 56
     },
     {
         "Username": "user27",
@@ -809,7 +795,35 @@
         "Name": "Tk2549",
         "Day 1": 34,
         "Day 2": 25,
-        "Rank": 57
+        "Rank": 56
+    },
+    {
+        "Username": "user98",
+        "multiverse": 4,
+        "isekai": 21,
+        "boringpath": 0,
+        "Global": 53,
+        "cover": 0,
+        "explosion": 28,
+        "carnival": 0,
+        "Name": "riodsa",
+        "Day 1": 25,
+        "Day 2": 28,
+        "Rank": 58
+    },
+    {
+        "Username": "user5",
+        "multiverse": 0,
+        "isekai": 50,
+        "boringpath": 0,
+        "Global": 50,
+        "cover": 0,
+        "explosion": 0,
+        "carnival": 0,
+        "Name": "sleepntsheep",
+        "Day 1": 50,
+        "Day 2": 0,
+        "Rank": 59
     },
     {
         "Username": "user41",
@@ -823,7 +837,7 @@
         "Name": "Blackslex",
         "Day 1": 34,
         "Day 2": 14,
-        "Rank": 59
+        "Rank": 60
     },
     {
         "Username": "user108",
@@ -837,7 +851,7 @@
         "Name": "Mularstyle",
         "Day 1": 34,
         "Day 2": 11,
-        "Rank": 60
+        "Rank": 61
     },
     {
         "Username": "user20",
@@ -851,7 +865,7 @@
         "Name": "kornkin.png",
         "Day 1": 34,
         "Day 2": 11,
-        "Rank": 60
+        "Rank": 61
     },
     {
         "Username": "user81",
@@ -865,7 +879,7 @@
         "Name": "Ck.",
         "Day 1": 16,
         "Day 2": 28,
-        "Rank": 62
+        "Rank": 63
     },
     {
         "Username": "user146",
@@ -879,7 +893,7 @@
         "Name": "GetGetGet",
         "Day 1": 30,
         "Day 2": 14,
-        "Rank": 62
+        "Rank": 63
     },
     {
         "Username": "user28",
@@ -893,7 +907,7 @@
         "Name": "ไปหาสาวที่ มช (songsapk)",
         "Day 1": 30,
         "Day 2": 11,
-        "Rank": 64
+        "Rank": 65
     },
     {
         "Username": "user83",
@@ -907,7 +921,21 @@
         "Name": "...",
         "Day 1": 34,
         "Day 2": 0,
-        "Rank": 65
+        "Rank": 66
+    },
+    {
+        "Username": "user80",
+        "multiverse": 4,
+        "isekai": 30,
+        "boringpath": 0,
+        "Global": 34,
+        "cover": 0,
+        "explosion": 0,
+        "carnival": 0,
+        "Name": "DoMyBest",
+        "Day 1": 34,
+        "Day 2": 0,
+        "Rank": 66
     },
     {
         "Username": "user144",
@@ -921,7 +949,7 @@
         "Name": "wootwoot",
         "Day 1": 34,
         "Day 2": 0,
-        "Rank": 65
+        "Rank": 66
     },
     {
         "Username": "user91",
@@ -935,7 +963,7 @@
         "Name": ".tw",
         "Day 1": 30,
         "Day 2": 0,
-        "Rank": 67
+        "Rank": 69
     },
     {
         "Username": "user59",
@@ -949,7 +977,7 @@
         "Name": "Fieldmarshal",
         "Day 1": 30,
         "Day 2": 0,
-        "Rank": 67
+        "Rank": 69
     },
     {
         "Username": "user7",
@@ -963,7 +991,7 @@
         "Name": "Kcim",
         "Day 1": 30,
         "Day 2": 0,
-        "Rank": 67
+        "Rank": 69
     },
     {
         "Username": "user67",
@@ -977,21 +1005,7 @@
         "Name": "aruna",
         "Day 1": 16,
         "Day 2": 14,
-        "Rank": 67
-    },
-    {
-        "Username": "user5",
-        "multiverse": 0,
-        "isekai": 30,
-        "boringpath": 0,
-        "Global": 30,
-        "cover": 0,
-        "explosion": 0,
-        "carnival": 0,
-        "Name": "sleepntsheep",
-        "Day 1": 30,
-        "Day 2": 0,
-        "Rank": 67
+        "Rank": 69
     },
     {
         "Username": "user8",
@@ -1005,7 +1019,7 @@
         "Name": "Mutelu",
         "Day 1": 28,
         "Day 2": 0,
-        "Rank": 72
+        "Rank": 73
     },
     {
         "Username": "user103",
@@ -1019,20 +1033,6 @@
         "Name": "Karnhh._.",
         "Day 1": 10,
         "Day 2": 14,
-        "Rank": 73
-    },
-    {
-        "Username": "user128",
-        "multiverse": 4,
-        "isekai": 18,
-        "boringpath": 0,
-        "Global": 22,
-        "cover": 0,
-        "explosion": 0,
-        "carnival": 0,
-        "Name": "",
-        "Day 1": 22,
-        "Day 2": 0,
         "Rank": 74
     },
     {
@@ -1078,20 +1078,6 @@
         "Rank": 77
     },
     {
-        "Username": "user80",
-        "multiverse": 4,
-        "isekai": 12,
-        "boringpath": 0,
-        "Global": 16,
-        "cover": 0,
-        "explosion": 0,
-        "carnival": 0,
-        "Name": "DoMyBest",
-        "Day 1": 16,
-        "Day 2": 0,
-        "Rank": 78
-    },
-    {
         "Username": "user33",
         "multiverse": 4,
         "isekai": 12,
@@ -1131,6 +1117,20 @@
         "Name": "naphattar",
         "Day 1": 10,
         "Day 2": 4,
+        "Rank": 80
+    },
+    {
+        "Username": "user128",
+        "multiverse": 4,
+        "isekai": 9,
+        "boringpath": 0,
+        "Global": 13,
+        "cover": 0,
+        "explosion": 0,
+        "carnival": 0,
+        "Name": "",
+        "Day 1": 13,
+        "Day 2": 0,
         "Rank": 81
     },
     {

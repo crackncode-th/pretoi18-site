@@ -34,7 +34,7 @@
 
 <style lang="postcss">
   .buttons {
-    @apply flex flex-row gap-2 justify-center select-none;
+    @apply flex flex-col md:flex-row gap-2 justify-center select-none;
   }
 
   .buttons > button {
